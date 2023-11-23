@@ -9,11 +9,14 @@ interface QuoteData {
 
 const Quotes: React.FC = () => {
   const [quotes, setQuotes] = useState<QuoteData[] | null>();
+  const [loading, setLoading] = useState<boolean>(false);
 
   const fetchQuotes = async () => {
     const apiKey = "mFI+ML1Z8tTv6vv6lk0ykA==JaTMN75bsOL03keX";
 
     try {
+      setLoading(true);
+
       const response = await fetch(`https://api.api-ninjas.com/v1/quotes`, {
         headers: {
           "X-Api-Key": apiKey,
@@ -29,6 +32,8 @@ const Quotes: React.FC = () => {
       setQuotes(data);
     } catch (err) {
       console.error("Error:", err);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -50,7 +55,9 @@ const Quotes: React.FC = () => {
       ) : (
         <h1>Loading quotes...</h1>
       )}
-      <button onClick={() => fetchQuotes()}>Generate new quote</button>
+      <button onClick={() => fetchQuotes()} disabled={loading}>
+        Generate new quote
+      </button>
     </div>
   );
 };

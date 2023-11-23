@@ -7,11 +7,14 @@ interface JokesData {
 
 const Jokes: React.FC = () => {
   const [jokes, setJokes] = useState<JokesData[] | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
 
   const fetchJokes = async () => {
     const apiKey = "mFI+ML1Z8tTv6vv6lk0ykA==JaTMN75bsOL03keX";
 
     try {
+      setLoading(true);
+
       const response = await fetch(
         `https://api.api-ninjas.com/v1/jokes?limit=3`,
         {
@@ -30,6 +33,8 @@ const Jokes: React.FC = () => {
       setJokes(data);
     } catch (err) {
       console.error("Error: ", err);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -52,7 +57,9 @@ const Jokes: React.FC = () => {
         <p>Loading jokes...</p>
       )}
 
-      <button onClick={() => fetchJokes()}>Generate new quote</button>
+      <button onClick={() => fetchJokes()} disabled={loading}>
+        Generate new quote
+      </button>
     </div>
   );
 };
