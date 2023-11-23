@@ -37,7 +37,7 @@ const Jokes: React.FC = () => {
     fetchJokes();
   }, []);
 
-  console.log(jokes);
+  // console.log(jokes);
 
   return (
     <div className="jokes-container">

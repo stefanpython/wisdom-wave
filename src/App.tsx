@@ -4,6 +4,7 @@ import Quotes from "./components/Quotes";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Jokes from "./components/Jokes";
+import Images from "./components/Images";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/quotes" element={<Quotes />} />
           <Route path="/jokes" element={<Jokes />} />
+          <Route path="/images" element={<Images />} />
         </Routes>
       </HashRouter>
     </div>
