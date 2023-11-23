@@ -32,7 +32,7 @@ const Quotes: React.FC = () => {
     }
   };
 
-  console.log(quotes);
+  // console.log(quotes);
 
   useEffect(() => {
     fetchQuotes();
@@ -40,10 +40,16 @@ const Quotes: React.FC = () => {
 
   return (
     <div className="quotes-container">
-      <h1>{quotes ? quotes[0].quote : "Loading quotes..."}</h1>
-      <p>{quotes ? "Category: " + quotes[0].category : "Unknown category"}</p>
-      <h4>{quotes ? "Author: " + quotes[0].author : "Unknown author"}</h4>
-
+      <h1>Famous quotes</h1>
+      {quotes ? (
+        <>
+          <h1>{quotes[0].quote}</h1>
+          <p>Category: {quotes[0].category}</p>
+          <h4>Author: {quotes[0].author}</h4>
+        </>
+      ) : (
+        <h1>Loading quotes...</h1>
+      )}
       <button onClick={() => fetchQuotes()}>Generate new quote</button>
     </div>
   );

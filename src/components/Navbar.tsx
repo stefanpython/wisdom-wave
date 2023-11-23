@@ -25,13 +25,13 @@ function Navbar() {
 
         <ul className="desktop-links">
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/"}>Home </Link>
           </li>
           <li>
-            <Link to={"/about"}>About Us</Link>
+            <Link to={"/quotes"}>Quotes</Link>
           </li>
           <li>
-            <Link to={"/services"}>Services</Link>
+            <Link to={"/jokes"}>Jokes</Link>
           </li>
           <li>
             <Link to={"/fees"}>Fees</Link>
@@ -52,10 +52,10 @@ function Navbar() {
             <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <Link to={"/about"}>About Us</Link>
+            <Link to={"/quotes"}>Quotes</Link>
           </li>
           <li>
-            <Link to={"/services"}>Services</Link>
+            <Link to={"/jokes"}>Jokes</Link>
           </li>
           <li>
             <Link to={"/fees"}>Fees</Link>
