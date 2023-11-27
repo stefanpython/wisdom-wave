@@ -68,10 +68,11 @@ const Riddles: React.FC = () => {
   return (
     <>
       <h1>Riddles</h1>
+      <hr />
 
       {riddles ? (
         <div className="riddle-container">
-          <h1>{riddles[0].title}</h1>
+          <h1> - {riddles[0].title} -</h1>
           <h1>{riddles[0].question}</h1>
           {showAnswer && <h2>{"Answer: " + riddles[0].answer}</h2>}
         </div>

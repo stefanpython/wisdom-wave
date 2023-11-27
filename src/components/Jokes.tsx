@@ -47,6 +47,7 @@ const Jokes: React.FC = () => {
   return (
     <div className="jokes-container">
       <h1>Silly yet funny Jokes</h1>
+      <hr />
       {jokes ? (
         <ul>
           {jokes.map((joke, index) => (

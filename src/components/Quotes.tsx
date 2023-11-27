@@ -46,6 +46,9 @@ const Quotes: React.FC = () => {
   return (
     <div className="quotes-container">
       <h1>Famous quotes</h1>
+
+      <hr />
+
       {quotes ? (
         <>
           <h1>{quotes[0].quote}</h1>

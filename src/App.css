@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
 #root {
   margin: 0 auto;
   text-align: center;
+}
+
+h1 {
+  font-family: 'Mate', serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #bbe4e9; 
+}
+
+hr {
+  max-width: 400px;
 }

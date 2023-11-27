@@ -55,6 +55,7 @@ const Images: React.FC = () => {
   return (
     <div className="images-container">
       <h1>Random image generator</h1>
+      <hr />
       {loading ? (
         <p>Loading image...</p>
       ) : imageBlob ? (

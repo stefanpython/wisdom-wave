@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <img className="logo" src="" alt="logo" />
+        <img className="logo" src="/ocean.png" alt="logo" />
         <span className="navbar-title">
           <span className="color-title">Wizdom</span> Wave
         </span>

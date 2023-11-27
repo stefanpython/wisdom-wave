@@ -1,0 +1,11 @@
+.home-container {
+    margin-top: 200px !important;
+    margin: 0 400px;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        margin: 0 !important;
+       
+    }
+}

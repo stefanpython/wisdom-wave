@@ -43,6 +43,7 @@ const Facts: React.FC = () => {
   return (
     <>
       <h1>Facts</h1>
+      <hr />
 
       {facts ? <h1>{facts[0].fact}</h1> : <p>Loading facts...</p>}
 
