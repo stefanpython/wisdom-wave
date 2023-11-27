@@ -77,3 +77,6 @@ const Images: React.FC = () => {
 };
 
 export default Images;
+
+// TODO: Add: - Facts page
+//            - Riddles page
