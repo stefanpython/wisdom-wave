@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Jokes from "./components/Jokes";
 import Images from "./components/Images";
 import Facts from "./components/Facts";
+import Riddles from "./components/Riddles";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/jokes" element={<Jokes />} />
           <Route path="/images" element={<Images />} />
           <Route path="/facts" element={<Facts />} />
+          <Route path="/riddles" element={<Riddles />} />
         </Routes>
       </HashRouter>
     </div>

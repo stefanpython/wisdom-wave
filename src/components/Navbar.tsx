@@ -40,7 +40,7 @@ function Navbar() {
             <Link to={"/facts"}>Facts</Link>
           </li>
           <li>
-            <Link to={"/testimonials"}>Testimonials</Link>
+            <Link to={"/riddles"}>Riddles</Link>
           </li>
         </ul>
 
@@ -64,7 +64,7 @@ function Navbar() {
             <Link to={"/facts"}>Facts</Link>
           </li>
           <li>
-            <Link to={"/testimonials"}>Testimonials</Link>
+            <Link to={"/riddles"}>Riddles</Link>
           </li>
         </ul>
       </div>
