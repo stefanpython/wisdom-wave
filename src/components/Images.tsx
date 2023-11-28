@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./Images.css";
 
 const Images: React.FC = () => {
   const [imageBlob, setImageBlob] = useState<Blob | null>(null);

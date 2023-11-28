@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./Jokes.css";
 
 interface JokesData {
   joke: string;
