@@ -14,7 +14,7 @@ const Riddles: React.FC = () => {
   const [timer, setTimer] = useState<number | null>(5); // Initial timer value in seconds
 
   const fetchRiddles = async () => {
-    const apiKey = "mFI+ML1Z8tTv6vv6lk0ykA==JaTMN75bsOL03keX";
+    const apiKey = import.meta.env.VITE_APP_KEY;
 
     try {
       setLoading(true);

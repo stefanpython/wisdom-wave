@@ -1,8 +1,8 @@
 # Wizdom Wave
 
-Welcome to the Fun and Wisdom App, your one-stop destination for laughter, thought-provoking riddles, inspirational quotes, captivating random images, and fascinating facts! This web application is designed to provide a delightful and enriching experience for users seeking entertainment and knowledge.
+Welcome to Wizom Wave, your one-stop destination for laughter, thought-provoking riddles, inspirational quotes, captivating random images, and fascinating facts! This web application is designed to provide a delightful and enriching experience for users seeking entertainment and knowledge.
 
-Try it out [HERE]()
+Try it out [HERE](https://stefanpython.github.io/wisdom-wave/)
 
 ## Features
 
@@ -22,6 +22,8 @@ Try it out [HERE]()
    Expand your knowledge with fascinating facts from various domains. Learn interesting tidbits that will make you say, "Wow, I never knew that!"
 
 ## Getting Started
+
+0. Register and account and get an API key from https://api-ninjas.com/ and replace apiKey variable with your own api.
 
 1. Clone the repository to your local machine.
 
@@ -52,6 +54,6 @@ npm start
 
 ### Technologies Used
 
-React
-TypeScript
-CSS
+- React
+- TypeScript
+- CSS

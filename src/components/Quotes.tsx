@@ -12,7 +12,7 @@ const Quotes: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
 
   const fetchQuotes = async () => {
-    const apiKey = "mFI+ML1Z8tTv6vv6lk0ykA==JaTMN75bsOL03keX";
+    const apiKey = import.meta.env.VITE_APP_KEY;
 
     try {
       setLoading(true);
