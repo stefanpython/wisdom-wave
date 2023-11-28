@@ -16,7 +16,7 @@ const Jokes: React.FC = () => {
       setLoading(true);
 
       const response = await fetch(
-        `https://api.api-ninjas.com/v1/jokes?limit=3`,
+        `https://api.api-ninjas.com/v1/jokes?limit=1`,
         {
           headers: {
             "X-Api-Key": apiKey,

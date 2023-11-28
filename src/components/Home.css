@@ -1,11 +1,24 @@
 .home-container {
-    margin-top: 200px !important;
+    margin-top: 100px !important;
     margin: 0 400px;
 }
 
-@media (max-width: 768px) {
+.home-container p {
+    font-size: 50px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.home-container h1 {
+    font-style: italic;
+}
+
+@media (max-width: 1230px) {
     .home-container {
         margin: 0 !important;
-       
+       padding: 0 20px;
+    }
+    h1 {
+        font-size: 25px;
     }
 }

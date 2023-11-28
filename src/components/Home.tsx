@@ -4,6 +4,7 @@ import "./Home.css";
 const Home: React.FC = () => {
   return (
     <div className="home-container">
+      <p> &#8604;</p>
       <h1>
         Welcome to Wizdom Wave – Your Hub for Laughter and Wisdom! Explore jokes
         that tickle, riddles that challenge, facts that enlighten, quotes that
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
         to laugh, ponder, and be inspired – because at Wizdom Wave, delight
         awaits!
       </h1>
+      <p> &#8605;</p>
     </div>
   );
 };

@@ -80,7 +80,11 @@ const Riddles: React.FC = () => {
         <h1>Loading riddle...</h1>
       )}
 
-      <button onClick={displayAnswer} disabled={disabledButton}>
+      <button
+        className="show-btn"
+        onClick={displayAnswer}
+        disabled={disabledButton}
+      >
         {disabledButton ? `Show answer in ${timer}s` : "Show answer"}
       </button>
       <br />
