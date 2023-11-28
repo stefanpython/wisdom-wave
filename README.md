@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# Wizdom Wave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Fun and Wisdom App, your one-stop destination for laughter, thought-provoking riddles, inspirational quotes, captivating random images, and fascinating facts! This web application is designed to provide a delightful and enriching experience for users seeking entertainment and knowledge.
 
-Currently, two official plugins are available:
+Try it out [HERE]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+1. Jokes
+   Explore a collection of silly yet funny jokes that are sure to tickle your funny bone. Click the "Generate new joke" button to discover a new joke and brighten your day with laughter.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Riddles
+   Challenge your intellect with mind-bending riddles that will keep you engaged and entertained. Solve each riddle and unravel the mystery behind every question.
 
-- Configure the top-level `parserOptions` property like this:
+3. Quotes
+   Discover a treasure trove of inspirational quotes that offer wisdom, motivation, and perspective. Immerse yourself in the thoughts of great minds and find inspiration for your daily life.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+4. Random Image Generator
+   Experience visual delight with our random image generator. Explore a variety of images across different categories, including nature, city, technology, food, still life, abstract, and wildlife.
+
+5. Facts
+   Expand your knowledge with fascinating facts from various domains. Learn interesting tidbits that will make you say, "Wow, I never knew that!"
+
+## Getting Started
+
+1. Clone the repository to your local machine.
+
+```
+git clone <repository-url>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory.
+
+```
+cd fun-and-wisdom-app
+```
+
+3. Install dependencies.
+
+```
+npm install
+```
+
+4. Start the development server.
+
+```
+npm start
+
+```
+
+5. Open your browser and visit http://localhost:5173 .
+
+### Technologies Used
+
+React
+TypeScript
+CSS
