@@ -4,7 +4,7 @@ import "./Images.css";
 const Images: React.FC = () => {
   const [imageBlob, setImageBlob] = useState<Blob | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
-  const [categories, setCategories] = useState<string[]>([
+  const [categories] = useState<string[]>([
     "nature",
     "city",
     "technology",
